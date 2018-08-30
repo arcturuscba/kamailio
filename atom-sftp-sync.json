@@ -1,0 +1,10 @@
+{
+    "type": "sftp",
+    "host": "192.168.95.142",
+    "username": "root",
+    "password": "098098ZZZ",
+    "port": 22,
+    "remotePath": "/etc/kamailio/",
+    "uploadOnSave": true,
+    "uploadConfigFile": false
+}
