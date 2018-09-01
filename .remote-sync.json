@@ -5,7 +5,7 @@
   "uploadOnSave": true,
   "useAtomicWrites": false,
   "deleteLocal": false,
-  "hostname": "192.168.95.142",
+  "hostname": "192.168.95.116",
   "target": "/etc/kamailio",
   "ignore": [
     ".remote-sync.json",

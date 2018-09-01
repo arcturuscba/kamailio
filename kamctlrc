@@ -5,7 +5,7 @@
 # will use their internal default values.
 
 ## your SIP domain
-# SIP_DOMAIN=kamailio.org
+SIP_DOMAIN=example.com
 
 ## chrooted directory
 # $CHROOT_DIR="/path/to/chrooted/directory"
@@ -15,28 +15,28 @@
 #
 # If you want to setup a database with kamdbctl, you must at least specify
 # this parameter.
-# DBENGINE=MYSQL
+DBENGINE=MYSQL
 
 ## database host
-# DBHOST=localhost
+DBHOST=localhost
 
 ## database name (for ORACLE this is TNS name)
-# DBNAME=kamailio
+DBNAME=kamailio
 
 # database path used by dbtext, db_berkeley or sqlite
 # DB_PATH="/usr/local/etc/kamailio/dbtext"
 
 ## database read/write user
-# DBRWUSER="kamailio"
+DBRWUSER="kamailio"
 
 ## password for database read/write user
-# DBRWPW="kamailiorw"
+DBRWPW="kamailiorw"
 
 ## database read only user
-# DBROUSER="kamailioro"
+DBROUSER="kamailioro"
 
 ## password for database read only user
-# DBROPW="kamailioro"
+DBROPW="kamailioro"
 
 ## database access host (from where is kamctl used)
 # DBACCESSHOST=192.168.0.1
@@ -49,7 +49,7 @@
 
 
 # SQL definitions
-# If you change this definitions here, then you must change them 
+# If you change this definitions here, then you must change them
 # in db/schema/entities.xml too.
 # FIXME
 
@@ -57,7 +57,7 @@
 # DEFAULT_Q="1.0"
 
 
-# Program to calculate a message-digest fingerprint 
+# Program to calculate a message-digest fingerprint
 # MD5="md5sum"
 
 # awk tool
