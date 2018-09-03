@@ -6,7 +6,7 @@
   "useAtomicWrites": false,
   "deleteLocal": false,
   "hostname": "192.168.95.116",
-  "target": "/etc/kamailio",
+  "target": "/usr/local/etc/kamailio/",
   "ignore": [
     ".remote-sync.json",
     ".git/**"
